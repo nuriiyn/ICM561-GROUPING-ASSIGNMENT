@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta name="author" content="Untree.co">
+    <link rel="shortcut icon" href="favicon.png">
+
+    <meta name="description" content="" />
+    <meta name="keywords" content="bootstrap, bootstrap5" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+    <link rel="stylesheet" href="css/tiny-slider.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/flatpickr.min.css">
+    <link rel="stylesheet" href="css/glightbox.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Islamic Finder</title>
+
+    <!-- Flip Card CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        .flip-card {
+            background-color: transparent;
+            width: 300px;
+            height: 200px;
+            perspective: 1000px;
+            margin: 10px;
+        }
+
+        .flip-card-inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            transition: transform 0.8s;
+            transform-style: preserve-3d;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        .flip-card:hover .flip-card-inner {
+            transform: rotateY(180deg);
+        }
+
+        .flip-card-front, .flip-card-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            border-radius: 10px;
+        }
+
+        .flip-card-front {
+            background-color: #2980b9;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+        }
+
+        .flip-card-back {
+            background-color: #f2f2f2;
+            color: black;
+            transform: rotateY(180deg);
+            padding: 20px;
+            box-sizing: border-box;
+            border: 1px solid #2980b9;
+            border-radius: 10px;
+        }
+
+        .flip-card-back h2 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="site-mobile-menu site-navbar-target">
+        <div class="site-mobile-menu-header">
+            <div class="site-mobile-menu-close">
+                <span class="icofont-close js-menu-toggle"></span>
+            </div>
+        </div>
+        <div class="site-mobile-menu-body"></div>
+    </div>
+
+    <nav class="site-nav mt-3">
+        <div class="container">
+
+            <div class="site-navigation">
+                <div class="row">
+                    <div class="col-6 col-lg-3">
+                        <a href="index.html" class="logo m-0 float-start">Islamic Finder</a>
+                    </div>
+                    <div class="col-lg-6 d-none d-lg-inline-block text-center nav-center-wrap">
+                        <ul class="js-clone-nav text-center site-menu p-0 m-0">
+                            <li class="active"><a href="index.html">Home</a></li>
+                            <li><a href="books.html">Books</a></li>
+                            <li class="has-children">
+                                <!-- Add child items here if necessary -->
+                            </li>
+                            <li><a href="news&facts.html">News & Facts</a></li>
+                            <li><a href="local&global.html">Archive</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-lg-3 text-lg-end">
+                        <ul class="js-clone-nav d-none d-lg-inline-block text-end site-menu">
+                            <li class="cta-button"><a href="aboutus.html">About Us</a></li>
+                        </ul>
+
+                        <a href="#" class="burger ms-auto float-end site-menu-toggle js-menu-toggle d-inline-block d-lg-none light" data-toggle="collapse" data-target="#main-navbar">
+                            <span></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="hero overlay">
+        <div class="img-bg rellax">
+            <img src="images/view icm561.jpg" alt="Image" class="img-fluid">
+        </div>
+        <div class="container">
+            <div class="row align-items-center justify-content-start">
+                <div class="col-lg-6 mx-auto text-center">
+                    <h1 class="heading" data-aos="fade-up">بِسْمِ ٱللَّٰهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ</h1>
+                    <p class="mb-4" data-aos="fade-up">"Surah Al-Fatiha (1:2) "All praise is due to Allah, the Lord of all the worlds.</p>
+                    <p class="mb-4" data-aos="fade-up" style="text-align: justify;">
+                        Hello, and welcome to our Website Archive Repository Project! This project, undertaken by Nurin Adriana and Nurul Izzati for our ICM561 subject, is dedicated to providing a comprehensive and insightful collection of the sacred texts in Islam.
+                    </p>
+                    <p class="mb-4" data-aos="fade-up" style="text-align: justify;">
+                        We invite you to explore the fascinating world of Islamic scripture, enriched with detailed information and thoughtfully curated content. Join us in this journey of discovery and understanding.
+                    </p>                    
+                    <div data-aos="fade-up">
+                        <a href="https://youtu.be/1WmMQUaJEeQ?si=p0bv-5gHUEJoDtFp" class="play-button glightbox3 w-100 text-center">
+                            <div class="d-inline-flex align-items-center">
+                                <span class="icon-button me-3">
+                                    <span class="icon-play"></span>
+                                </span>
+                                <span class="caption">Watch Video</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section section-2">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-lg-6 order-lg-2 mb-5 mb-lg-0">
+                    <div class="image-stack mb-5 mb-lg-0">
+                        <div class="image-stack__item image-stack__item--bottom" data-aos="fade-up">
+                            <img src="images/alquran 2.jpg" alt="Image" class="img-fluid rellax">
+                        </div>
+                        <div class="image-stack__item image-stack__item--top" data-aos="fade-up" data-aos-delay="100" data-rellax-percentage="0.5">
+                            <img src="images/muslimah.jpg" alt="Image" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 order-lg-1">
+                    <div>
+                        <h2 class="heading mb-3" data-aos="fade-up" data-aos-delay="100">The Significance of Kitab in Islam</h2>
+                        <p data-aos="fade-up" data-aos-delay="300">In Islam, the term "Kitab" refers to the holy books revealed by Allah to guide humanity. These sacred texts are considered the ultimate source of spiritual wisdom and divine law, providing comprehensive guidance on all aspects of life. Among the most revered Kitabs in Islam are:</p>
+
+                        <h2 class="heading mb-3" data-aos="fade-up" data-aos-delay="100">The Quran</h2>
+                        <p data-aos="fade-up" data-aos-delay="200">The Quran is the final and most important revelation, given to the Prophet Muhammad (peace be upon him). It is considered the verbatim word of Allah, preserved in its original Arabic form. The Quran addresses all facets of life, offering guidance, moral principles, and legal frameworks. It is recited, memorized, and studied by Muslims worldwide.</p>
+
+                        <h2 class="heading mb-3" data-aos="fade-up" data-aos-delay="100">The Torah (Tawrat)</h2>
+                        <p data-aos="fade-up" data-aos-delay="200">Revealed to Prophet Moses (Musa), the Torah is acknowledged in Islam as a divine scripture that provided early guidance to the Israelites. While the original text is believed to have been altered over time, its significance remains acknowledged in Islamic teachings.</p>
+
+                        <h2 class="heading mb-3" data-aos="fade-up" data-aos-delay="100">The Psalms (Zabur)</h2>
+                        <p data-aos="fade-up" data-aos-delay="200">Given to Prophet David (Dawud), the Psalms are a collection of hymns and songs that emphasize devotion and praise to Allah. The Zabur holds an important place in Islamic tradition, highlighting the continuity of divine revelation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </div>
+
+    <!-- Flip Cards Section -->
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <h2>Al-Quran</h2>
+                    </div>
+                    <div class="flip-card-back">
+                        <p>The Quran is the holy book of Islam, believed to be the literal word of God as revealed to Prophet Muhammad</p>
+                        <p><strong>Keywords:</strong>Al-Quran, Injil, Taurat, Zabur</p>
+						<p><strong>Author:</strong> Amida AbdulHamid</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <h2>Kitab Taurat</h2>
+                    </div>
+                    <div class="flip-card-back">
+                        <p>The Gospel together with the Zabur, Torah and Al-Quran are the holy books revealed by Allah SWT to His servants</p>
+						<p><strong>Keywords:</strong>The language of the Bible, Zabur, Torah and Al-Quran</p>
+                        <p><strong>Author:</strong>Rosmha Widiani</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <h2>Kitab Zabur</h2>
+                    </div>
+                    <div class="flip-card-back">
+                        <p>The Book of Psalms is a book that was revealed to Prophet Daud AS around the 10th century BC in the Land of Canaan</p>
+						<p><strong>Keywords:</strong>4 Divine Books that Must Be Believed</p>
+                        <p><strong>Author:</strong>Kristina</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="widget">
+                        <h3>Surah Al-Hujurat (49:13)<span class="text-primary"></span></h3>
+                        <p style="text-align: justify;">"O mankind, indeed We have created you from male and female and made you peoples and tribes that you may know one another. Indeed, the most noble of you in the sight of Allah is the most righteous of you. Indeed, Allah is Knowing and Acquainted."</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="widget">
+                        <h3>Contact Us</h3>
+                        <address>Seksyen 24, Shah Alam, Selangor.</address>
+                        <ul class="list-unstyled links mb-4">
+                            <li><a href="tel://1131253626">+60(11)-3125-3626</a></li>
+                            <li><a href="tel://11234567890">+60(11)-6409-7146</a></li>
+                            <li><a href="mailto:info@mydomain.com">islamfinder@gmail.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Preloader -->
+    <div id="overlayer"></div>
+    <div class="loader">
+        <div class="spinner-border text-primary" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/tiny-slider.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/counter.js"></script>
+    <script src="js/rellax.js"></script>
+    <script src="js/flatpickr.js"></script>
+    <script src="js/glightbox.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>
+
